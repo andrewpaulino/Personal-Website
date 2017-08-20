@@ -10,9 +10,8 @@ var flash = require('express-flash');
 var Handlebars = require("express-handlebars");
 
 
-var landingPage = require('./routes/landingPage');
-var education = require('./routes/education')
-var skills = require('./routes/skills')
+var landingPage = require('./landingPage');
+
 
 
 var app = express();
@@ -30,14 +29,6 @@ app.set('view engine', 'handlebars');
 
 
 
-
-
-//body parser
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
 
 //sessions
 app.use(session({
@@ -65,7 +56,10 @@ app.use(expressValidator({
   }
 }));
 
-
+app.get('/styles.css', function(req,res,css){
+    res.sendFile(path.join(__dirname +'/public/css/styles.css'));
+    
+})
 app.use('/', landingPage);
 
 
