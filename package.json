@@ -1,6 +1,7 @@
 {
     "name": "personal-website",
     "version": "0.1.0",
+	"main": "server/index.js",
     "scripts": {
         "build": "npm run less && webpack",
         "start": "node server/index.js",
