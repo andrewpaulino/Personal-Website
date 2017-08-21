@@ -8,7 +8,7 @@
 
     {{!-- Styles And BootStrap --}}
     <link rel="stylesheet" href="styles.css">
-    
+    <script type="text/jsx" src="index.jsx"></script>
     <script src="https://use.fontawesome.com/c5a7e559d9.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Archivo|Oswald|Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -119,4 +119,17 @@
       });
     });
     </script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAeXr0JwaIXi6pA7rjllFkF1z0jelTw7_8",
+    authDomain: "personal-website-contact-80ec5.firebaseapp.com",
+    databaseURL: "https://personal-website-contact-80ec5.firebaseio.com",
+    projectId: "personal-website-contact-80ec5",
+    storageBucket: "personal-website-contact-80ec5.appspot.com",
+    messagingSenderId: "815355181816"
+  };
+  firebase.initializeApp(config);
+</script>
 </html>
