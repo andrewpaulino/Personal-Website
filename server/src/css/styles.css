@@ -33,7 +33,7 @@
 }
 
 .pimg3{
-  background-image:url('code.jpg');
+  background-image:url('image3.jpg');
   min-height:400px;
 }
 
@@ -110,7 +110,9 @@ p{
     text-align: center;
     color: #CCC;
 }
-
+hr{
+  color:#fff
+}
 #lmao {
     padding: 10.5px;
     margin: 0px;
