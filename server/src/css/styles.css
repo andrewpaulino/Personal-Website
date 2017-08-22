@@ -77,14 +77,13 @@ p{
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
-  line-height: 50%;
 }
 
 .ptext .border{
   background-color:#111;
   color:#fff;
   padding:20px;
- 
+  line-height:120px;
 }
 
 .ptext .border.trans{
