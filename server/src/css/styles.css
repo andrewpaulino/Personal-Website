@@ -77,13 +77,14 @@ p{
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
+  line-height: 36px;
 }
 
 .ptext .border{
   background-color:#111;
   color:#fff;
   padding:20px;
-  line-height: 36px;
+ 
 }
 
 .ptext .border.trans{
@@ -112,7 +113,9 @@ p{
     color: #CCC;
 }
 hr{
-  color:#fff
+  color:#fff;
+  background-color:#fff
+  
 }
 #lmao {
     padding: 10.5px;
